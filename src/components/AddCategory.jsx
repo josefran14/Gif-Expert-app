@@ -4,7 +4,7 @@ export const AddCategory = (props) => {
 
   const {onNewCategory} = props 
 
-  const [inputValue, setInputValue] = useState("")
+  const [inputValue, setInputValue] = useState("") 
 
   const onInputChange = (event) =>{
     setInputValue(event.target.value)
